@@ -16,4 +16,4 @@ _avec retour à la ligne_\
 | --------- | ----------- | ---: |
 | Header    | Title       | Texte |
 | Paragraphe exemple aligné à gauche | Texte        
-|exemple centré  | Texte exemple à aligner à droite |
+|Exemple centré  | Texte exemple à aligner à droite |
