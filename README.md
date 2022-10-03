@@ -37,4 +37,5 @@ _avec retour à la ligne_\
 | git restore | --staged | | Unstage un ou plusieurs fichiers |
 | git branch | -M, -d , -a | Créer ou renommer une branche de travail |
 | git merge| | Permet de fusionner l'historique Git de 2 branches |
+| git stash |
 
