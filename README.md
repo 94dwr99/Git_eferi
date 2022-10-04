@@ -46,3 +46,5 @@ _avec retour à la ligne_\
 #### BONJOUR EX01
 Exercice à faire sans tarder :)
 
+Exercice très facile
+
