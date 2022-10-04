@@ -38,3 +38,4 @@ _avec retour à la ligne_\
 | git branch | -M, -d , -a | Créer ou renommer une branche de travail |
 | git fetch 'url_dépôt_distant' <branch_name> | | Récupérer des changements distants 'Github' |
 | git merge 'FETCH_HEAD' | | Fusionner les changements récupérer |
+| git pull | | Fait le `git fetch 'url_dépôt_distant' <branch_name>`et le `git merge 'FETCH_HEAD'` en même temps |
