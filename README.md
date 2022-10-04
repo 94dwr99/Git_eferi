@@ -42,3 +42,7 @@ _avec retour à la ligne_\
 | git merge| | Permet de fusionner l'historique Git de 2 branches |
 | git stash |
 
+
+#### BONJOUR EX01
+Exercice à faire.
+
