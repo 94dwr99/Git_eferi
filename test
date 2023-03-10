@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char *argv[])
+{
+ /* Chemin vers le nouveau fichier */
+ char* path = argv[1];
+ /* Permissions du nouveau fichier */
+ mode_t mode = S_IRUSR | S_IWUSR | S_IRGRO | S_IWGRP | S_IROTH;
+ /* Créer le fichier */
+ int fd = open (path, O_RDWR | O_CREAT | O_EXCL, mode);
+ if (fd == -1){
+  /* Une erreur est survenue, affiche un message et quitte. */
+  perror(“open”);
+  return 1;
+ }
+ return 0;
+}
